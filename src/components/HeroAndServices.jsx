@@ -27,7 +27,7 @@ const HeroAndServices = () => {
                 <p className='text-3xl xl:text-5xl font-normal xl:font-bold text-blue-500'>Growing</p>
                 <p className='text-3xl xl:text-5xl font-normal xl:font-bold'>Businesses</p>
             </div> */}
-            <p className='xl:hidden text-3xl xl:text-5xl font-normal xl:font-bold text-center pb-1'>
+            <p key={key} className='xl:hidden text-3xl xl:text-5xl font-normal xl:font-bold text-center pb-1'>
               {words.map((word, index) => (
                 <span key={index} className={index === 2 ? "text-blue-500" : ""}>
                   {word}{" "}
