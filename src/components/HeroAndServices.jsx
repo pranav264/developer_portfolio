@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import LetsConnectButton from './LetsConnectButton'
 import Services from './Services'
 import vsCodeScreenshot from "../assets/vsCodeScreenshot.png";
@@ -12,6 +12,12 @@ const HeroAndServices = () => {
 
   const ref6 = useRef();
   const isVisible6 = useIsVisible(ref6);
+
+  const [key, setKey] = useState(0);
+
+  useEffect(() => {
+    setKey(prevKey => prevKey + 1);
+  }, []);
 
   return (
     <div className='w-full flex flex-col mt-44 inter'>
