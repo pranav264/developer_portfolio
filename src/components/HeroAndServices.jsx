@@ -34,7 +34,7 @@ const HeroAndServices = () => {
                 </span>
               ))}
             </p>
-            <p key={key} className='hidden xl:block text-3xl xl:text-5xl font-normal xl:font-bold typing-effect pb-1'>
+            <p key={key} className='hidden xl:block text-3xl xl:text-5xl font-normal xl:font-bold pb-1'>
               {words.map((word, index) => (
                 <span key={index} className={index === 2 ? "text-blue-500" : ""}>
                   {word}{" "}
