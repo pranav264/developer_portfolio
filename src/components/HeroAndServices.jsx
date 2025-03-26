@@ -20,7 +20,7 @@ const HeroAndServices = () => {
   }, []);
 
   return (
-    <div className='w-full flex flex-col mt-44 inter'>
+    <div key={key} className='w-full flex flex-col mt-44 inter'>
         <div id='home' className='flex flex-col justify-center items-center gap-5'>
             {/* <div className='flex justify-center items-center flex-wrap gap-2'>
                 <p className='text-3xl xl:text-5xl font-normal xl:font-bold'>Building Websites</p>

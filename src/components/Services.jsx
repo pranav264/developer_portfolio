@@ -6,17 +6,17 @@ const services = [
     {
         Icon: Globe,
         title: "Web Development",
-        description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story."
+        description: "Building professional and aesthetic business websites using modern frameworks such as React JS and Next JS."
     },
     {
         Icon: Smartphone,
         title: "App Development",
-        description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story."
+        description: "Using React Native to build cross platform compatible apps that are lightweight and can easily bring your idea to life."
     },
     {
         Icon: PenTool,
         title: "Content Writing",
-        description: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story."
+        description: "Writing Technical Content that educates on concepts of Web Development and provides practical knowledge with the help of project related articles"
     }
 ]
 
